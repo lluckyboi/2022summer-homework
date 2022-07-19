@@ -7,5 +7,6 @@ func main() {
 	c.AddEntry("*/5 * * * * * *", func() {
 		println("5s")
 	})
+
 	c.Start()
 }
